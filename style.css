@@ -70,7 +70,7 @@ body, html {
     text-transform: uppercase;
 }
 .completed-projects{
-    background: url(Image/work5.jpg);
+    background: url(/work5.jpg);
 }
 .completed-projects img{
     transition: .5s;
@@ -116,7 +116,7 @@ body, html {
     padding: 10px;
 }
 .contact-us{
-    background: url(Image/contact.jpg) rgba(0, 0, 0, 0.1);
+    background: url(/contact.jpg) rgba(0, 0, 0, 0.1);
 }
 .contact-us .container{
     max-width: 900px;
