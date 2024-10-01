@@ -1,0 +1,150 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Logo */
+.logo {
+    width: 80px;
+}
+.navbar{
+    background: #000;
+}
+.navbar .navbar-toggler span{
+    background: rgb(5, 134, 247);
+}
+.navbar .container .navbar-nav li a{
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 2rem;
+}
+/* .navbar .container .navbar-nav li .btn{
+   
+} */
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+}
+.carousel-inner .carousel-item img{
+    height: 600px;
+}
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* About Us Section */
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.about-us .container h2{
+    margin: 2rem;
+    font-weight: bold;
+}
+.about-us .container h3{
+    color: rgb(5, 134, 247);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.about-us .container ul {
+    display: flex;
+}
+.about-us .container ul i{
+    padding: 10px;
+    color: rgb(5, 134, 247);
+}
+.about-us .container ul li{
+    text-transform: uppercase;
+}
+.completed-projects{
+    background: url(Image/work5.jpg);
+}
+.completed-projects img{
+    transition: .5s;
+}
+.completed-projects img:hover{
+    scale:1.05;
+    transition: .5s;
+    cursor: pointer;
+}
+.completed-projects .container h2{
+    font-weight: bold;
+    margin: 3rem;
+}
+.completed-projects .container h5{
+    font-weight: bold;
+}
+/* .completed-projects .container .row div{
+    background: #fff;
+    margin: 2rem;
+} */
+
+.what-we-do .container h2{
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.what-we-do .container h5{
+    text-transform: uppercase;
+}
+.what-we-do .container .row i{
+    color: rgb(5, 134, 247);
+}
+/* Carousel */
+.carousel-item img {
+    width: 100%;
+    height:min-content;
+}
+
+/* Contact Us */
+.contact-us h3 {
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 3rem;
+    padding: 10px;
+}
+.contact-us{
+    background: url(Image/contact.jpg) rgba(0, 0, 0, 0.1);
+}
+.contact-us .container{
+    max-width: 900px;
+}
+.contact-us .container .row{
+    background: #00000035;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.contact-us p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+}
+.contact-us .second{
+    margin-top: 5rem;
+    padding-top: 15px;
+}
+
+footer i {
+    /* margin: 0 10px; */
+    font-size: 1rem;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: .5rem;
+    border-radius: 50%;
+}
+/* footer .fab:hover{
+    background: blue;
+} */
